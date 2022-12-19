@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "euclid";
+  src: local("euclid"),
+    url(./assets/font/Euclid\ Circular\ A\ Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "integral";
+  src: local("integral"),
+    url(./assets/font/Fontspring-DEMO-integralcf-medium.otf) format("opentype");
+}
+@font-face {
+  font-family: "typo";
+  src: local("typo"),
+    url(./assets/font/typo-grotesk-thin.otf) format("truetype");
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+
+  @media screen and (max-width: 800px) {
+    padding: 0;
+  }
+}
