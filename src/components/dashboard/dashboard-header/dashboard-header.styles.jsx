@@ -34,21 +34,35 @@ export const Side2 = styled.div`
   padding: 0 40px 0 0;
 `;
 export const NotificationImg = styled.img`
-  width: 27px;
-  height: 27px;
-  margin: auto 0;
-`;
-export const OptionImg = styled.img`
-  width: 27px;
-  height: 27px;
-  margin: auto 0;
-`;
-export const AvatarImg = styled.img`
-  width: 40px;
-  height: 40px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
   margin: auto 0;
   border-radius: 50%;
-  border: 2px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
+
+  &:hover {
+    background: #f5f5f5;
+  }
+`;
+export const OptionImg = styled.img`
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin: auto 0;
+  border-radius: 50%;
+  border: 1px solid #f5f5f5;
+
+  &:hover {
+    background: #f5f5f5;
+  }
+`;
+export const AvatarImg = styled.img`
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
+  border-radius: 50%;
+  // border: 1px solid #f5f5f5;
 `;
 export const ImageWallet = styled.img`
   padding: 10px 15px;
