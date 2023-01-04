@@ -35,7 +35,7 @@ class GetterTableData extends Component {
           <table>
             <tbody>
               <Tr>
-                <th className="symbol"># coin</th> <th>price</th> <th>1h</th><th>4h</th> <th>price</th>
+                <th className="symbol"># coin</th> <th>1h</th> <th>1h</th><th>4h</th> <th>price</th>
                 <th>price</th>
                 <th>24h</th> <th>24h volume</th>{" "}
                 <th>marketcap</th> <th>fully diluted valuation</th>
@@ -51,9 +51,9 @@ class GetterTableData extends Component {
               {this.state.coins.map((coin) => (
                 <Tr>
                   <td>
-                    <h1 className="symbol1">{coin.market_cap_rank} <Image1 src={coin.image} /> {coin.symbol} <br /> {coin.name}</h1>
+                    <h1 className="symbol1">{coin.market_cap_rank} <Image1 src={coin.image} /> {coin.symbol} <br /> <h2 className="try">{coin.name}</h2></h1>
                   </td>
-                  <td>price</td> <td>1h</td> <td>4h</td> <td>price</td>
+                  <td>1h</td> <td>1h</td> <td>4h</td> <td>price</td>
                   <td>$ {coin.current_price}</td>
                   <td>$ {coin.high_24h}</td> <td>$ {coin.fully_diluted_valuation}</td>
                   <td>$ {coin.market_cap}</td> <td>$ {coin.fully_diluted_valuation}</td>

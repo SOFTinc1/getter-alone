@@ -23,7 +23,7 @@ class App extends React.Component {
           <Route exact path="/signup" element={<SignUpPage />} />
           <Route exact path="/dashboard" element={<DashboardPage />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

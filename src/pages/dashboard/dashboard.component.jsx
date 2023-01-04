@@ -1,6 +1,7 @@
 import React from "react";
-import { H1, MainDashboard, DashboardPageContainer } from "./dashboard.styles";
-import DashboardHeader from "../../components/dashboard/dashboard-header/dashboard-header.component";
+import { DashboardPageContainer } from "./dashboard.styles";
+import FirstDashboard from "../../components/dashboard/first-dashboard/first-dashboard.component";
+import SecondDashboard from "../../components/dashboard/second-dashboard/second-dashboard.component";
 
 class DashboardPage extends React.Component {
   constructor(props) {
@@ -10,10 +11,8 @@ class DashboardPage extends React.Component {
   render() {
     return (
       <DashboardPageContainer>
-        <H1>Leave this for now</H1>
-        <MainDashboard>
-          <DashboardHeader />
-        </MainDashboard>
+        <FirstDashboard />
+        <SecondDashboard />
       </DashboardPageContainer>
     );
   }

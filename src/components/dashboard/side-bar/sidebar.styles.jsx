@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Menu } from "../../../../assets/svg/menu.svg";
+import { ReactComponent as Menu } from "../../../assets/svg/menu.svg";
 
 export const SidebarContainer = styled.div`
   margin: auto 0;
@@ -7,5 +7,6 @@ export const SidebarContainer = styled.div`
   width: 50px;
   background: #f5f5f5;
   border-radius: 50px;
+  display: none;
 `;
 export const ButtonImg = styled(Menu)``;

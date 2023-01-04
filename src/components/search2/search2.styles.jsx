@@ -32,6 +32,8 @@ export const FormInputContainer = styled.input`
   &:focus {
     &::placeholder {
       opacity: 1;
+      font-family: lionel;
+    letter-spacing: 1px;
     }
     @media screen and (max-width: 400px) {
       background: #f5f5f5;
@@ -62,9 +64,9 @@ export const FormInputContainer = styled.input`
 
   &::placeholder {
     opacity: 0;
-    font-family: euclid;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 2px;
+    font-family: lionel;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
   }
 `;
