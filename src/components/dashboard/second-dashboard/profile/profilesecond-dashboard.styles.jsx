@@ -5,7 +5,7 @@ export const ProfileContainer = styled.div`
   background: #0c756f;
   font-family: lionel;
   border-radius: 12px;
-  margin: 20px 0 0 0;
+  margin: 50px 0 0 0;
   color: #fff;
 
   @media screen and (max-width: 830px) {

@@ -14,3 +14,6 @@ export const SecondDashboardContainer = styled.div`
     padding: 0;
   }
 `;
+export const Hr = styled.hr`
+  background: #f5f5f5;
+`;
