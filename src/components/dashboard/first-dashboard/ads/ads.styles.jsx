@@ -4,15 +4,10 @@ export const AdsContainer = styled.div`
   padding: 0 0 40px 0;
   background: #fffcf1;
   font-family: lionel;
+  margin: 40px 0 0 0;
 
   @media screen and (max-width: 830px) {
-    padding: 0;
-  }
-  @media screen and (max-width: 525px) {
-    padding: 0;
-  }
-  @media screen and (max-width: 400px) {
-    padding: 0;
+    margin: 50px 0 0 0;
   }
 `;
 export const Card2Row = styled.div`
@@ -24,6 +19,7 @@ export const CardGreen = styled.div`
   border-radius: 12px;
   padding: 10px;
   color: #fff;
+  width: 100%;
 `;
 export const Top = styled.div`
   display: flex;
@@ -36,7 +32,9 @@ export const ImageGirl = styled.img`
   width: 30px;
   height: 30px;
 `;
-export const Nft = styled.div``;
+export const Nft = styled.div`
+  margin: 0 0 0 auto;
+`;
 export const Have = styled.h1`
   font-size: 12px;
   text-transform: capitalize;
@@ -66,12 +64,17 @@ export const CardYellow = styled.div`
   background: #fdcf6f;
   border-radius: 12px;
   padding: 10px;
+  width: 100%;
 `;
 export const CardDown = styled.div`
   background: #fff;
   border-radius: 12px;
-  padding: 10px 20px;
+  padding: 10px 20px 20px 20px;
   margin: 20px 0 0 0;
+
+  @media screen and (max-width: 830px) {
+    margin: 20px 0 40px 0;
+  }
 `;
 export const Solana = styled.div`
   font-size: 14px;

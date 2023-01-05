@@ -39,6 +39,11 @@ export default function TokenList() {
           <Qty>100,000</Qty>
           <Price>$3</Price>
         </Row2>
+        <Row3>
+          <Token>baby samo:</Token>
+          <Qty>100,000</Qty>
+          <Price>$3</Price>
+        </Row3>
       </CardWhite>
     </FirstDashboardContainer>
   );

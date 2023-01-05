@@ -45,17 +45,23 @@ export const Row3 = styled.div`
   color: #fff;
 `;
 export const Token = styled.h2`
-  font-size: 16px;
-  text-transform: capitalize;
-  margin: auto 0;
+font-size: 14px;
+text-transform: capitalize;
+font-weight: 600;
+letter-spacing: 2px;
+margin: auto;
 `;
 export const Qty = styled.h2`
-  font-size: 16px;
-  text-transform: capitalize;
-  margin: auto;
+font-size: 14px;
+text-transform: capitalize;
+font-weight: 600;
+letter-spacing: 2px;
+margin: auto;
 `;
 export const Price = styled.p`
-  font-size: 16px;
-  text-transform: capitalize;
-  margin: 0 0 0 auto;
+font-size: 14px;
+text-transform: capitalize;
+font-weight: 600;
+letter-spacing: 2px;
+margin: auto;
 `;

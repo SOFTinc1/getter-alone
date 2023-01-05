@@ -9,23 +9,18 @@ export const ProfileContainer = styled.div`
   color: #fff;
 
   @media screen and (max-width: 830px) {
-    padding: 0;
-  }
-  @media screen and (max-width: 525px) {
-    padding: 0;
-  }
-  @media screen and (max-width: 400px) {
-    padding: 0;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
   }
 `;
 export const First = styled.h1`
-  font-size: 22px;
+  font-size: 18px;
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
 `;
 export const Other = styled.h1`
-  font-size: 22px;
+  font-size: 18px;
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
@@ -62,21 +57,21 @@ export const Flex2 = styled.div`
   gap: 10px;
 `;
 export const Asset = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
   margin: auto auto auto 0;
 `;
 export const Token = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
   margin: auto;
 `;
 export const Nft = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;

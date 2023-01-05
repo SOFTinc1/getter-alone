@@ -17,6 +17,7 @@ import {
   ImageGirl2,
 } from "./ads.styles";
 import Girl from "../../../../assets/image/girl.png";
+import Portfolio from "../../../../assets/svg/porfolio.svg";
 
 export default function Ads() {
   return (
@@ -24,7 +25,7 @@ export default function Ads() {
       <Card2Row>
         <CardGreen>
           <Top>
-            <ImageGirl src={Girl} />
+            <ImageGirl src={Portfolio} />
             <Nft>
               <Have>NFT</Have>
               <Total>18.0q</Total>
@@ -38,7 +39,7 @@ export default function Ads() {
         </CardGreen>
         <CardYellow>
           <Top>
-            <ImageGirl src={Girl} />
+            <ImageGirl src={Portfolio} />
             <Nft>
               <Have>NFT</Have>
               <Total>18.0q</Total>
@@ -56,9 +57,9 @@ export default function Ads() {
         <Selling>top selling tokens</Selling>
         <Flex>
           <ImageGirl2 src={Girl} />
+          <ImageGirl2 src={Portfolio} />
           <ImageGirl2 src={Girl} />
-          <ImageGirl2 src={Girl} />
-          <ImageGirl2 src={Girl} />
+          <ImageGirl2 src={Portfolio} />
           <ImageGirl2 src={Girl} />
         </Flex>
       </CardDown>

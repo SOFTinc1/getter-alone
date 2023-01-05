@@ -8,12 +8,6 @@ export const FirstDashboardContainer = styled.div`
   @media screen and (max-width: 830px) {
     padding: 0;
   }
-  @media screen and (max-width: 525px) {
-    padding: 0;
-  }
-  @media screen and (max-width: 400px) {
-    padding: 0;
-  }
 `;
 export const Head = styled.h1`
   font-size: 22px;
@@ -32,4 +26,10 @@ export const Row = styled.div`
   display: flex;
   gap: 20px;
   padding: 0 40px;
+  margin: 60px 0 0 0;
+
+  @media screen and (max-width: 830px) {
+    display: block;
+    padding: 0 10px;
+  }
 `;

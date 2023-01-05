@@ -17,7 +17,7 @@ export const GroupContainer = styled.form`
 `;
 export const FormInputContainer = styled.input`
   @media screen and (max-width: 800px) {
-    width: 25px;
+    width: 16px;
     border-radius: 4px;
     font-size: 16px;
     background: transparent;
@@ -26,6 +26,7 @@ export const FormInputContainer = styled.input`
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     background-image: url(${SearchIcon});
+    background-size: 16px;
     border: none;
     // color: #000;
   }
@@ -33,7 +34,10 @@ export const FormInputContainer = styled.input`
     &::placeholder {
       opacity: 1;
       font-family: lionel;
-    letter-spacing: 1px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: capitalize;
     }
     @media screen and (max-width: 400px) {
       background: #f5f5f5;
@@ -45,6 +49,11 @@ export const FormInputContainer = styled.input`
       color: #000;
       outline: none;
       border: none;
+      font-family: lionel;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: capitalize;
       // background: #FAFAFA;
       // margin: -37px 0 0 -287px;
     }
@@ -58,6 +67,11 @@ export const FormInputContainer = styled.input`
       color: #000;
       outline: none;
       border: none;
+      font-family: lionel;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: capitalize;
       // background: #FAFAFA;
     }
   }
@@ -65,8 +79,9 @@ export const FormInputContainer = styled.input`
   &::placeholder {
     opacity: 0;
     font-family: lionel;
-    letter-spacing: 1px;
-    font-size: 16px;
-    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
   }
 `;

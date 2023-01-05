@@ -1,3 +1,5 @@
-#openonmobile {
-  display: none;
+@media screen and (max-width: 800px) {
+  #mobilenav {
+    display: none;
+  }
 }
