@@ -8,18 +8,16 @@ export const FirstDashboardContainer = styled.div`
   @media screen and (max-width: 830px) {
     padding: 0;
   }
-  @media screen and (max-width: 525px) {
-    padding: 0;
-  }
-  @media screen and (max-width: 400px) {
-    padding: 0;
-  }
 `;
 export const CardWhite = styled.div`
   background: #fff;
   border-radius: 12px;
   padding: 10px 30px;
   width: 350px;
+
+  @media screen and (max-width: 830px) {
+    width: 100%;
+  }
 `;
 export const Collection = styled.div`
   font-size: 14px;

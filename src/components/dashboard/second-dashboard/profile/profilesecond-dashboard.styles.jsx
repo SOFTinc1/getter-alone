@@ -61,7 +61,7 @@ export const Asset = styled.div`
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
-  margin: auto auto auto 0;
+  margin: auto;
 `;
 export const Token = styled.div`
   font-size: 14px;
@@ -75,5 +75,30 @@ export const Nft = styled.div`
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
-  margin: auto 0 auto auto;
+  margin: auto;
+`;
+export const Flex3 = styled.div`
+  display: flex;
+  gap: 10px;
+`;
+export const Asset2 = styled.div`
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: auto;
+`;
+export const Token2 = styled.div`
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: auto;
+`;
+export const Nft2 = styled.div`
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: auto;
 `;

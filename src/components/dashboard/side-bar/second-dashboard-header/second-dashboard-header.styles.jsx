@@ -34,5 +34,5 @@ export const ImageAvatar = styled.img`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #0c756f;
+  border: 1px solid #0c756f;
 `;

@@ -13,6 +13,7 @@ export const GroupContainer = styled.form`
     background: #eaddff21;
     border-radius: 50px;
     margin: 0;
+    z-index: 999;
   }
 `;
 export const FormInputContainer = styled.input`
@@ -28,6 +29,7 @@ export const FormInputContainer = styled.input`
     background-image: url(${SearchIcon});
     background-size: 16px;
     border: none;
+    z-index: 999;
     // color: #000;
   }
   &:focus {
@@ -49,11 +51,7 @@ export const FormInputContainer = styled.input`
       color: #000;
       outline: none;
       border: none;
-      font-family: lionel;
-      letter-spacing: 2px;
-      font-weight: 600;
-      font-size: 20px;
-      text-transform: capitalize;
+      z-index: 999;
       // background: #FAFAFA;
       // margin: -37px 0 0 -287px;
     }
@@ -67,11 +65,7 @@ export const FormInputContainer = styled.input`
       color: #000;
       outline: none;
       border: none;
-      font-family: lionel;
-      letter-spacing: 2px;
-      font-weight: 600;
-      font-size: 20px;
-      text-transform: capitalize;
+      z-index: 999;
       // background: #FAFAFA;
     }
   }
@@ -79,9 +73,8 @@ export const FormInputContainer = styled.input`
   &::placeholder {
     opacity: 0;
     font-family: lionel;
-    letter-spacing: 2px;
-    font-weight: 600;
-    font-size: 20px;
-    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
   }
 `;

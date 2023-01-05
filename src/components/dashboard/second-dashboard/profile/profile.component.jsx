@@ -10,6 +10,10 @@ import {
   Asset,
   Token,
   Nft,
+  Flex3,
+  Asset2,
+  Token2,
+  Nft2,
 } from "./profilesecond-dashboard.styles";
 
 export default function Profile() {
@@ -27,11 +31,11 @@ export default function Profile() {
           <Token>token</Token>
           <Nft>nft</Nft>
         </Flex2>
-        <Flex2>
-          <Asset>30</Asset>
-          <Token>24</Token>
-          <Nft>6</Nft>
-        </Flex2>
+        <Flex3>
+          <Asset2>30</Asset2>
+          <Token2>24</Token2>
+          <Nft2>6</Nft2>
+        </Flex3>
       </Flex2Container>
     </ProfileContainer>
   );

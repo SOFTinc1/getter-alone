@@ -1,3 +1,7 @@
+.dropdown-toggle::after {
+  margin: 0 0 0 40px!important;
+  /* display: none !important;  */
+}
 @media screen and (max-width: 800px) {
   #mobilenav {
     display: none;
